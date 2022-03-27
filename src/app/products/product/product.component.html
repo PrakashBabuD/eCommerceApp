@@ -1,0 +1,24 @@
+<article class="product">
+  <div class="product__body">
+    <img class="product__image" [src]="product.image" />
+    <div class="product__name">
+      {{ product.name }}
+    </div>
+    <div class="product__pricing">
+      <span class="product__selling-price">{{ product.price | currency: "AUD":"symbol-narrow" }}</span>
+      <small class="product__discount">{{ getDiscountMessage() }}</small>
+    </div>
+  </div>
+  <footer class="product__footer">
+    <div class="product__action-btn-container">
+      <button pButton pRipple type="button" label="Add to cart" class="p-button-success"></button>
+      <button
+        pButton
+        pRipple
+        type="button"
+        label="Compare"
+        class="p-button-raised p-button-secondary p-button-text"
+      ></button>
+    </div>
+  </footer>
+</article>

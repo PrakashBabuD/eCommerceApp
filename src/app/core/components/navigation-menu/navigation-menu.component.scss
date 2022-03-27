@@ -1,0 +1,20 @@
+.nav-menu {
+  background-color: gray;
+  padding: 10px;
+  &__link {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #5fa2dd;
+    }
+    &--active {
+      background-color: #5fa2dd;
+    }
+  }
+}

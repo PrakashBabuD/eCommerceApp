@@ -1,0 +1,39 @@
+.product {
+  background: white;
+  width: 18.75rem;
+  margin: 0.625rem;
+  padding: 1.25rem;
+  &__body {
+    text-align: center;
+  }
+  &__image {
+    width: 12.5rem;
+  }
+  &__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.125rem;
+  }
+  &__pricing {
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+  }
+  &__selling-price {
+    flex: 1;
+    color: green;
+    font-weight: bold;
+    text-align: left;
+  }
+  &__discount {
+    text-align: right;
+    color: red;
+  }
+  &__action-btn-container {
+    display: flex;
+    .p-button {
+      flex: 1;
+    }
+  }
+}
