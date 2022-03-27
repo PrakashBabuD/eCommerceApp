@@ -21,6 +21,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Unit testing 
+
+This appliation consists of units tests for all the  components,services which are used to show product details.It also implements mocking in all the specs to implement further unit testing.
+Please find the report below:
+
+![Test Results](https://ecommerceapppd.s3.ap-southeast-2.amazonaws.com/unit-tests_results.JPG)
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
